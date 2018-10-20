@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import github from '../img/github-icon.svg'
+
 
 const Navbar = () => (
   <nav className="navbar is-link" role="navigation" aria-label="main navigation">
@@ -21,18 +21,19 @@ const Navbar = () => (
       <div className="navbar-end">
       <p className="buttons">
         <a
-          className="navbar-item"
+          className="button is-info"
           href="https://github.com/Ra9"
           target="_blank"
           rel="noopener noreferrer"
         >
           <span className="icon">
-            <img src={github} alt="Github" />
+          <i className="fa fa-github"></i>
           </span>
+          <span>Github</span>
         </a>
-      <a href="https://twitter.com/carlosnah8" class="button is-primary">
+      <a href="https://twitter.com/carlosnah8" className="button is-primary">
         <span className="icon">
-          <i className="fab fa-twitter"></i>
+          <i className="fa fa-twitter"></i>
         </span>
         <span>Twitter</span>
       </a>
