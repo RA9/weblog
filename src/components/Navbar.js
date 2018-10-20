@@ -8,17 +8,15 @@ const Navbar = () => (
     <div className="container">
       <div className="navbar-brand">
         <Link to="/" className="navbar-item">
-          <figure className="image">
-            <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
-          </figure>
+         Carlos's Blog
         </Link>
       </div>
       <div className="navbar-start">
         <Link className="navbar-item" to="/about">
           About
         </Link>
-        <Link className="navbar-item" to="/products">
-          Products
+        <Link className="navbar-item" to="/blog">
+          Blog Post
         </Link>
       </div>
       <div className="navbar-end">
