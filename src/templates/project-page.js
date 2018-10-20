@@ -36,7 +36,7 @@ const ProjectPage = ({ data }) => {
 
   return (
     <Layout>
-      <AboutPageTemplate
+      <ProjectPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         content={post.html}
@@ -52,7 +52,7 @@ ProjectPage.propTypes = {
 export default ProjectPage
 
 export const projectPageQuery = graphql`
-  query projectPage($id: String!) {
+  query ProjectPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
