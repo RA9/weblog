@@ -15,14 +15,14 @@ const Navbar = () => (
         <Link className="navbar-item" to="/about">
           About
         </Link>
-        <Link className="navbar-item" to="/blog">
-          Blog Post
+        <Link className="navbar-item" to="/project">
+          Projects
         </Link>
       </div>
       <div className="navbar-end">
         <a
           className="navbar-item"
-          href="https://github.com/AustinGreen/gatsby-netlify-cms-boilerplate"
+          href="https://github.com/Ra9"
           target="_blank"
           rel="noopener noreferrer"
         >
